@@ -12,6 +12,8 @@ $(document).ready(function() {
     var result = leapYear(year);
 
     $(".year").text(year);
+    $(".not").text("");
+
     if (!result) {
       $(".not").text("not at all");
     }
